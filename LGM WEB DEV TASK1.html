@@ -1,0 +1,334 @@
+<html>
+<head>
+<title>MY Portfolio</title>
+<script>$(document).ready(function(){
+ $("#home").hide(function(){
+   $(".hero").delay(1000).fadeIn(3000);
+ });
+  
+});
+
+</script>
+<style>body {
+  font-size: 18px;
+  font-family: lora;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.container-flex {
+  display: flex;
+  justify-content: center;
+  min-height: 400px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+hr {
+  width: 50%;
+}
+h2 {
+  text-align: center;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+h4 {
+  text-align: center;
+  padding: 10px
+}
+header {
+  color: #ffffff;
+  padding-top: 20px;
+  min-height: 80px;
+  background-color: #404280;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  border-bottom: 5px #d3cfcf solid;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+.current a {
+  font-size: 200%;
+  color: #e29457;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #c42e46;
+  font-size: 250%;
+  font-family: Berkshire Swash;
+  background: ;
+  font-weight: bolder;
+}
+.hero {
+ min-height: 800px;
+ background: url("https://images.unsplash.com/photo-1454165205744-3b78555e5572?auto=format&fit=crop&w=1950&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+ background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero h1 {
+  color: #ffffff;
+  font-size: 55px;
+  font-family: Berkshire Swash;
+  margin-top: 10%;
+}
+
+.hero h3 {
+  color: #ffffff;
+  font-size: 34px;
+  font-family: Pacifico;
+  text-align: center;
+}
+.btn-1 {
+  background-color: #40dd39;
+  width: 150px;
+  height: 60px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-1 a {
+  color: #ffffff;
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+  
+}
+.box h2 {
+  font-size: 45px;
+  text-decoration: underline;
+  padding: 10px;
+}
+article {
+  width: 50%;
+  text-align: center;
+  margin-left: 5%;
+}
+.item-1 {
+  width: 25%;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.item-1 li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.item-1 img {
+  width: 300px;
+}
+.about {
+  background-color: #ffffff;
+}
+
+.Portfolio {
+  background-color: #DFDBE5;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23b1c3f9' fill-opacity='0.53' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+  min-height: 300px;
+}
+form {
+  width: 50%;
+  text-align: center;
+  background-color: #c5ddf7;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 10px;
+}
+form input {
+  width: 100px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 10px;
+}
+legend {
+  color:;
+  font-size: 28px;
+  border-radius: 15px;
+}
+fieldset {
+  color: ;
+  border-radius: 15px;
+}
+textarea {
+  width: 50%;
+  
+  border-radius: 15px;
+}
+.btn {
+  color: #ffffff;
+  width:;
+  height: 50px;
+  background-color: #40dd39;
+  font-size: 28px;
+  border: 3px #b9f5b7 solid;
+  border-radius: 15px;
+  margin: 10px;
+}
+#contact-img {
+  float: right;
+  width: 25%;
+  height: 50%;
+  padding: 5px;
+  margin: 10px;
+}
+#copy {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 20px;
+  min-height: 80px;
+  background-color: #404280;
+  border-top: 5px #d3cfcf solid;
+}
+</style>
+</head>
+<body>
+<header>
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<nav class="navbar">
+<ul>
+<li class="current"><a href="#home">HOME</a></li>
+<li><a href="#about">ABOUT ME</a></li>
+<li><a href="#portfolio">PORTFOLIO</a></li>
+<li><a href="#contact">CONTACT ME</a></li>
+</ul>
+</nav>
+</header>
+<section class="hero" id="home">
+<div class="container">
+<h1>Shikhar Saxena Design</h1>
+<hr>
+<h3>Keep Exploring AND Keep Learning</h3>
+<div class="container">
+<button class="btn-1"><a class="button"
+href="https://www.linkedin.com/in/shikhar-saxena-0b4722201/">LINKDEIN</a></button>
+<button class="btn-1"><a class="button"
+href="https://github.com/shikhar6429">GITHUB</a></button>
+<button class="btn-1"><a class="button"
+href="https://codepen.io/shikhar6429">CODEPEN</a></button>
+</div>
+</section>
+<section id="about">
+<article>
+<h2>ABOUT ME</h2>
+  <p>My name is Shikhar Saxena & welcome to my portfolio website.I am a Full Stack Web Developer. I build websites That Are A Virtual Experience.From Ecormmerce through to single page websites.</p>
+    <p>I enjoy the challange that coding brings , with the chance of always learning new and exciting methods/languages.</p>
+  </article>
+  <hr>
+  <h2>What I Can Do</h2>
+  <div class="container-flex">
+  <div class="item-1">
+  <h3>Front End Development</h3>
+  <ul>
+   <li>Html 5</li>
+    <li>CSS 3</li>
+    <li>Javascript ES6</li>
+	<li>Github</li>
+	</ul>
+	</div>
+	<div class="item-1">
+	<h3>Back END Development</h3>
+	<ul>
+	 <li>Mysql</li>
+      <li>API'S</li>
+	  </ul>
+	  </div>
+	  <div class="item-1">
+	  <h3>Frame Works</h3>
+	  <ul>
+	  <li>Bootstrap version 3/V.4</li>
+	  <li>Payment Integration</li>
+	  </ul>
+	  </div>
+	  </div>
+	  </div>
+	  </section>
+	  <section id="portfolio">
+	  <h2>Portfolio</h2>
+  <div class="container-flex">
+    
+    <div class="item-1">
+      <a href="#"><img src="https://images.unsplash.com/photo-1482874478989-aaf30c03fe37?auto=format&fit=crop&w=1304&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="images of projects that has been done"></a>
+    </div>
+    <div class="item-1">
+      <a href="#"><img src="https://images.unsplash.com/photo-1503437313881-503a91226402?auto=format&fit=crop&w=2089&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="images of projects that has been done"></a>
+    </div>
+    <div class="item-1">
+      <a href="#"><img src="https://images.unsplash.com/photo-1505238680356-667803448bb6?auto=format&fit=crop&w=1950&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="images of projects that has been done"></a>
+    </div>
+  </div>
+  <hr>
+  <div class="section teal">
+    <div class="row container white-text">
+      <h2 class="header center" id="contact">Contact Me</h2>
+      <form class="col s12">
+  <div class="row">
+    <div class="input-field col s6">
+      <input id="first_name" type="text" class="validate">
+      <label for="first_name">First Name</label>
+    </div>
+    <div class="input-field col s6">
+      <input id="last_name" type="text" class="validate">
+      <label for="last_name">Last Name</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="input-field col s12">
+      <input id="email" type="email" class="validate">
+      <label for="email">Email</label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Message</label>
+        </div>
+  </div>
+        <div class="row">
+    <div class="input-field col s12">
+          <input type="submit" class="btn red" text="Enviar">
+        </div>
+  </div>
+</form>
+    </div>
+  </div>
+  <footer>
+  
+    <p id="copy">Shikhar Saxena, Copyright &copy; 2021</p>
+  
+</footer>
+  </body>
+</html>
